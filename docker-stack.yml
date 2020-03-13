@@ -6,6 +6,6 @@ services:
     volumes:
       - ./html/:/var/www/html
     ports:
-      - 8000:80
+      - 8000:9000
     deploy:
       replicas: 1
